@@ -1,7 +1,7 @@
 let counterDisplayElem = document.querySelector('.counter-display');
 let counterMinusElem = document.querySelector('.counter-minus');
 let counterPlusElem = document.querySelector('.counter-plus');
-let count = 100;
+let count = 50;
 
 updateDisplay();
 
@@ -23,7 +23,7 @@ function updateDisplay(){
 let counterDisplayElem2 = document.querySelector('.counter-display2');
 let counterMinusElem2 = document.querySelector('.counter-minus2');
 let counterPlusElem2 = document.querySelector('.counter-plus2');
-let count2 = 100;
+let count2 = 50;
 
 updateDisplay();
 
