@@ -1,0 +1,41 @@
+body {
+    animation: backgroundChanger infinite 25s linear;
+    font-family: myFirstFont;
+}
+
+h1, h2, h3, label {
+    color: white;
+    padding: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.sidebar {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    height: 100%;
+    width: 10%;
+    min-width: 100px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(GameOfSquids-1GMVL.ttf);
+}
+
+@keyframes backgroundChanger {
+    0%   {background-color: rgb(14, 56, 194);}
+    50%  {background-color: rgb(194, 14, 14);}
+    100% {background-color: rgb(15, 128, 21);}
+}
